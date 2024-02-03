@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Satisfy&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Varela+Round&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+* {
+  /* font-family: 'Varela Round', sans-serif; */
+  /* font-family: 'Lato', sans-serif;
+    font-family: 'Varela Round', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.bttnn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#semesterContainer input{
+  /* background-color: ; */
+  text-align: center;
+  margin-top: 20px;
+  width: 220px;
+  height: 42px;
+  border-radius: 3px;
+}
+.navbar-nav {
+  margin-left: 40px;
+}
+
+.navbar-nav .nav-item:hover {
+  border-radius: 5%;
+  background-color: #198754;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  /* border-radius: 8px; */
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Set your desired width */
+  float: left;
+  background-color: #f1f1f1; /* Add a background color if needed */
+  height: 91vh;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #000000;
+}
+.sidebar :hover {
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #198754;
+  color: white;
+  transition: ease-in;
+}
+.sidebar .first:hover .hov {
+  color: white;
+}
+.first {
+  padding: 20px;
+}
+.logout {
+  padding: 20px;
+}
+.main-content {
+  flex: 1; /* Take up the remaining space in the container */
+  padding: 20px; /* Add padding as needed */
+}
