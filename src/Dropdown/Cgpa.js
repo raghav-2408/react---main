@@ -4,7 +4,7 @@ export default function Cgpa() {
   let semesterVal = 1;
   function add() {
     let addy = document.getElementById("semesterContainer");
-
+    //JS
     if (semesterVal > 8) {
       return;
     }
