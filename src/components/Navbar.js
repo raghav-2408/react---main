@@ -97,6 +97,9 @@ export default function Navbar(props) {
           </div>
         </div>
       </nav>
+        {/* <div className = "container hidden" style={{opacity : "0", marginTop : "20vh"}}>
+          <h1>Welcome 'student-name'</h1>
+        </div> */}
     </div>
   );
 }
