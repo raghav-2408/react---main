@@ -14,6 +14,27 @@ export default function Cgpa() {
     addy.appendChild(mainy);
     semesterVal++;
   }
+
+  function res() {
+    let ans = 0;
+    let semCount = 0;
+    let ans1 = document.getElementsByTagName("input");
+    let need = document.getElementById("result");
+    for (let i = 0; i < ans1.length; i++) {
+      let marks = parseFloat(ans1[i].value);
+      if (!isNaN(marks)) {
+        semCount++;
+        ans += marks;
+      }
+    }
+
+    if (semCount > 0) {
+      let cgpa = ans / semCount;
+      need.innerText = "CGPA : " + cgpa.toFixed(2);
+    } else {
+      alert("Atleast one parameter is required !");
+    }
+  }
   return (
     <>
       <div>
@@ -28,7 +49,12 @@ export default function Cgpa() {
             <button className="btn btn-success mx-4" onClick={add}>
               Add Semester +
             </button>
-            <button className="btn btn-success mx-4">Calculate CGPA</button>
+            <button className="btn btn-success mx-4" onClick={res}>
+              Calculate CGPA
+            </button>
+          </div>
+          <div id="res">
+            <p id="result">CGPA : </p>
           </div>
         </>
       </div>

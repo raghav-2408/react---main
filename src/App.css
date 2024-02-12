@@ -30,6 +30,15 @@
   margin-left: 40px;
 }
 
+
+
+#res{
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .navbar-nav .nav-item:hover {
   border-radius: 5%;
   background-color: #198754;
