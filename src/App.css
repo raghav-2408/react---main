@@ -11,14 +11,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
-
-.bttnn{
+.bttnn {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#semesterContainer input{
+#semesterContainer input {
   /* background-color: ; */
   text-align: center;
   margin-top: 20px;
@@ -30,9 +29,7 @@
   margin-left: 40px;
 }
 
-
-
-#res{
+#res {
   font-size: 25px;
   margin-top: 20px;
   display: flex;
@@ -84,27 +81,24 @@
   padding: 20px; /* Add padding as needed */
 }
 
-
-  @keyframes anime1 {
-    0%{
-      opacity: 1;
-      transform: translateX(-100%);
-    }
-    100%{
-      opacity: 1; 
-      transform: translateX(0%);
-    }
+@keyframes anime1 {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
   }
-  .containerr{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: anime1 4s ease-in-out;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
   }
+}
+.containerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: anime1 4s ease-in-out;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
 /* 
   .containerr.hidden{
     display: none;
   } */
-
-
